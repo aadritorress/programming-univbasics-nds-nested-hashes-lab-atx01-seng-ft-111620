@@ -32,7 +32,9 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-
+directors[0] #=> {:name=>"Ida Lupino", :favorite_movie=>"The Hitch-Hiker"}
+directors[0][:name] #=> "Ida Lupino"
+directors[0][:name] = "John Ford"
   aoh[1][:name] = "Libby Torres"
   
   # Update the AoH data at row and key to have the value of new_value
