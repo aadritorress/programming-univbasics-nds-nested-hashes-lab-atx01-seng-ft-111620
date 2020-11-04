@@ -27,7 +27,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-  the_people[2][:name] 
+  literal_aoh[2][:name] 
   
 end
 
