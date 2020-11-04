@@ -33,8 +33,8 @@ end
 
 def aoh_update(aoh, row, key, new_value)
 
-directors[1][:name] = "Libby Torres"
-  aoh[1][:name] = 
+aoh[1][:name] = "Libby Torres"
+ 
   
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
